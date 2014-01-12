@@ -41,7 +41,8 @@ public class RectangleJunitQuickCheckTest {
 
     }
 
-    @Ignore
+    @Ignore("Not possible to define restriction between different parameters" +
+            "=> assumption never satisfied")
     @Theory
     public void testIsSquare(@ForAll @InRange(minInt = 0) int x,
                                 @ForAll @InRange(minInt = 0) int y) throws Exception {

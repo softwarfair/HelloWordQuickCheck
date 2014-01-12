@@ -1,4 +1,6 @@
 QuickcheckIntroduction
 ======================
 
-Sample introduction to quickcheck tools
+Sample introduction to quickcheck tools.
+
+
