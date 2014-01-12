@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112d6e60-b088-4a58-be24-c80fd16a2c37" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="helloworld-quickcheck.iws" />
@@ -550,6 +549,11 @@
       <created>1389492232519</created>
       <updated>1389492232519</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding quickcheck samples&#10;">
+      <created>1389495316490</created>
+      <updated>1389495316490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -593,6 +597,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="adding quickcheck samples&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding quickcheck samples&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
