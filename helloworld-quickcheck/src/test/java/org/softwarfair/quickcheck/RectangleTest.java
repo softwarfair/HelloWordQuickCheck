@@ -42,8 +42,6 @@ public class RectangleTest {
         }
     }
 
-
-
     @Test
     public void testIsSquareCharactestic() throws Exception {
         QuickCheck.forAllVerbose(100, PrimitiveGenerators.positiveIntegers(), new AbstractCharacteristic<Integer>() {
