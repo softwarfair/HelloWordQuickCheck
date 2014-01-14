@@ -1,14 +1,12 @@
 package org.softwarfair.quickcheck;
 
-import net.java.quickcheck.Generator;
 import net.java.quickcheck.QuickCheck;
 import net.java.quickcheck.characteristic.AbstractCharacteristic;
 import net.java.quickcheck.generator.PrimitiveGenerators;
-import net.java.quickcheck.generator.support.ExcludingGenerator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class RectangleTest {
+public class RectangleQuickCheckTest {
     @Test
     public void testArea() throws Exception {
         for(int i = 1; i < 100; i++) {
