@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112d6e60-b088-4a58-be24-c80fd16a2c37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/org/softwarfair/quickcheck/Rectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/org/softwarfair/quickcheck/RectangleJunitPlainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/org/softwarfair/quickcheck/RectangleJunitQuickCheckTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/org/softwarfair/quickcheck/RectangleQuickCheckTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/org/softwarfair/quickcheck/RectangleQuickCheckGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/org/softwarfair/quickcheck/RectangleQuickCheckGeneratorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_bundle_2_10_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="helloworld-quickcheck.iws" />
@@ -192,16 +188,6 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld-quickcheck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="helloworld-quickcheck" />
@@ -688,7 +674,15 @@
       <created>1390344771871</created>
       <updated>1390344771871</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding more on quickcheck for scala&#10;">
+      <created>1390345540746</created>
+      <updated>1390345540746</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding more on quickcheck for scala&#10;">
+      <created>1390345559941</created>
+      <updated>1390345559941</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
