@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <scala.version>2.10.2</scala.version>
+        <scala.version>2.9.1</scala.version>
     </properties>
 
     <repositories>
@@ -34,6 +34,7 @@
     </pluginRepositories>
 
     <dependencies>
+        <!-- jUnit quickcheck dependencies -->
         <dependency>
             <groupId>com.pholser</groupId>
             <artifactId>junit-quickcheck-core</artifactId>
@@ -82,6 +83,13 @@
             <artifactId>jline</artifactId>
             <version>2.9.0-1</version>
         </dependency>
+        <!-- ScalaTest dependency -->
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.10</artifactId>
+            <version>2.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -95,6 +103,26 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
+            <!-- I can't get this working
+            <plugin>
+                <groupId>org.scalatest</groupId>
+                <artifactId>scalatest-maven-plugin</artifactId>
+                <version>1.0-RC2</version>
+                <configuration>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <junitxml>.</junitxml>
+                    <filereports>WDF TestSuite.txt</filereports>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>test</id>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            -->
             <plugin>
                 <groupId>org.scala-tools</groupId>
                 <artifactId>maven-scala-plugin</artifactId>
@@ -115,7 +143,7 @@
                         <!-- this should allow us to execute the ScalaCheck tests -->
                         <launcher>
                             <id>test</id>
-                            <mainClass>org.softwarfair.quickcheck.Runner</mainClass>
+                            <mainClass>org.softwarfair.quickcheck.scala.Runner</mainClass>
                         </launcher>
                     </launchers>
                 </configuration>
