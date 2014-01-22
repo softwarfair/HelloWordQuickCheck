@@ -5,6 +5,8 @@ There are examples of how to use different frameworks to test using QuickCheck.
 
 This examples are the base for http://softwarfair.wordpress.com/2014/01/22/quickcheck-en-la-jvm/
 
+As you will probably guess you can directly import the project in Idea, working from version 13
+
 jUnit QuickCheck
 ================
 
@@ -31,5 +33,8 @@ Tests are located at [src/test/org/softwarfair/quickcheck/RectangleSpec.scala](s
 In order to execute is not working (but should) as a normal maven project and you have to execute the following: 
 
     mvn scala:run -Dlauncher=test
+    
+
+ 
 
    
